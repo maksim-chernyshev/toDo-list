@@ -9,8 +9,21 @@
 <body>
     
     <div class="wrapper">
-        <h1 class="todo-list__title"> To-Do List</h1>
-        <p class="todo-list__description"> How many tasks you have</p>
+        <header class="todo-list__header">
+            <div class="todo-list__title-side">
+                <h1 class="todo-list__title-name"> To-do list</h1>
+                <p class="todo-list__description"> How many tasks you have</p>
+            </div>
+
+            <div class="todo-list__edit-menu">
+                <button class="remove-button">
+                    <img src="img/icon_trashcan.svg" alt="trashcan">
+                </button>
+                <button class="edit-button">
+                    <img src="img/icon_pencil.svg" alt="trashcan">
+                </button>
+            </div>
+        </header>
     
         <div class="todo-list__tasks tasks">
             <ul class="tasks-list">

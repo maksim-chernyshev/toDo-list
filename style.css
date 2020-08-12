@@ -1,12 +1,32 @@
+body, p, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
 .wrapper {
     width: 375px;
     min-height: 594px;
-    padding-left: 18px;
+    padding-left: 60px;
     margin: 0 auto;
     background: #B678FF;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
-.todo-list__title {
+
+.todo-list__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.todo-list__title-name {
+    padding-top: 32px;
+    margin-bottom: 3px;
     font-size: 32px;
     line-height: 41px;
 
@@ -23,6 +43,12 @@
 
     opacity: 0.5;
 }
+
+.todo-list__edit-menu {
+    
+    display: flex;
+}
+
 .todo-list__tasks {
 
 }
